@@ -19,12 +19,12 @@ pip install dash pandas plotly dash-ag-grid
 3. SP500.csv - ข้อมูลดัชนี S&P 500
 
 วิธีการใช้งาน (How to Run)
-เปิด Terminal หรือ Command Prompt
+1. เปิด Terminal หรือ Command Prompt
 
-นำทาง (Navigate) ไปยังโฟลเดอร์ที่เก็บไฟล์โค้ดและไฟล์ CSV ของโปรเจกต์
+2. นำทาง (Navigate) ไปยังโฟลเดอร์ที่เก็บไฟล์โค้ดและไฟล์ CSV ของโปรเจกต์
 
-รันสคริปต์ Python ด้วยคำสั่ง (สมมติว่าไฟล์ชื่อ app.py):
+3. รันสคริปต์ Python ด้วยคำสั่ง (สมมติว่าไฟล์ชื่อ app.py):
 
 ```bash
 python app.py
-เปิดเว็บเบราว์เซอร์และเข้าไปที่ http://127.0.0.1:8050/ เพื่อใช้งาน Dashboard
+4. เปิดเว็บเบราว์เซอร์และเข้าไปที่ http://127.0.0.1:8050/ เพื่อใช้งาน Dashboard
