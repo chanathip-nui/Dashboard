@@ -10,7 +10,7 @@
 ก่อนรันแอปพลิเคชัน โปรดตรวจสอบให้แน่ใจว่าได้ติดตั้ง Python (แนะนำเวอร์ชัน 3.7 ขึ้นไป) และไลบรารีที่จำเป็นแล้ว
 ติดตั้งไลบรารีทั้งหมดผ่านคำสั่ง:
 ```bash
-pip install dash pandas plotly dash-ag-grid ```
+pip install dash pandas plotly dash-ag-grid
 
 ข้อมูลที่ต้องใช้ (Data Files)
 โปรเจกต์นี้จำเป็นต้องใช้ไฟล์ CSV 3 ไฟล์ ซึ่งต้องวางไว้ในโฟลเดอร์เดียวกันกับไฟล์สคริปต์ Python (.py):
@@ -25,6 +25,6 @@ pip install dash pandas plotly dash-ag-grid ```
 
 รันสคริปต์ Python ด้วยคำสั่ง (สมมติว่าไฟล์ชื่อ app.py):
 
-Bash
+```bash
 python app.py
 เปิดเว็บเบราว์เซอร์และเข้าไปที่ http://127.0.0.1:8050/ เพื่อใช้งาน Dashboard
