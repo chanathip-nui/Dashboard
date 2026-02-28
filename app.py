@@ -11,6 +11,7 @@ df3 = pd.read_csv("SP500.csv")
 # Data cleaning
 df1["Date"] = pd.to_datetime(df1["Date"]).dt.tz_localize(None)
 df2["Date"] = pd.to_datetime(df2["Date"]).dt.tz_localize(None)
+df3["Date"] = pd.to_datetime(df3["Date"]).dt.tz_localize(None)
 # Initialize the app
 app = Dash()
 
