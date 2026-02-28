@@ -13,7 +13,7 @@ df1["Date"] = pd.to_datetime(df1["Date"]).dt.tz_localize(None)
 df2["Date"] = pd.to_datetime(df2["Date"]).dt.tz_localize(None)
 df3["Date"] = pd.to_datetime(df3["Date"]).dt.tz_localize(None)
 # Initialize the app
-app = Dash()
+app = Dash(__name__)
 
 # Run the app
 if __name__ == "__main__":
