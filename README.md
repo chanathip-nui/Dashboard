@@ -1,4 +1,4 @@
-# Dashboard
+# Financial Market Dashboard
 
 จัดทำโดย
 นายชนาธิป นุ้ยสี 6810110566
