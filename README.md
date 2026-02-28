@@ -17,3 +17,14 @@ pip install dash pandas plotly dash-ag-grid
 1. goldstock_v1.csv - ข้อมูลราคาหุ้นทองคำ
 2. Crude_Oil_Data.csv - ข้อมูลราคาน้ำมันดิบ
 3. SP500.csv - ข้อมูลดัชนี S&P 500
+
+วิธีการใช้งาน (How to Run)
+เปิด Terminal หรือ Command Prompt
+
+นำทาง (Navigate) ไปยังโฟลเดอร์ที่เก็บไฟล์โค้ดและไฟล์ CSV ของโปรเจกต์
+
+รันสคริปต์ Python ด้วยคำสั่ง (สมมติว่าไฟล์ชื่อ app.py):
+
+Bash
+python app.py
+เปิดเว็บเบราว์เซอร์และเข้าไปที่ http://127.0.0.1:8050/ เพื่อใช้งาน Dashboard
