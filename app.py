@@ -48,6 +48,30 @@ app.layout = html.Div(
 )
 
 
+# Callback
+@callback(
+    Output(component_id="price-graph", component_property="figure"),
+    Input(component_id="asset-dropdown", component_property="value"),
+)
+def update_graph(selected_asset):
+    if selected_asset == "gold":
+        dff = df1
+        title = "Gold Stock Closing Price"
+    elif selected_asset == "oil":
+        dff = df2
+        title = "Crude Oil Closing Price"
+    else:
+        dff = df3
+        title = "S&P 500 Closing Price"
+
+    fig = px.line(dff, x="Date", y="Close", title=title)
+    fig.update_layout(title_x=0.5, template="plotly_white")
+    fig.update_xaxes(title_text="Date")
+    fig.update_yaxes(title_text="Close Price (USD)")
+
+    return fig
+
+
 # Run the app
 if __name__ == "__main__":
     app.run(debug=True)
