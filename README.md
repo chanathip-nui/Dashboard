@@ -14,9 +14,6 @@ pip install dash pandas plotly dash-ag-grid
 
 ข้อมูลที่ต้องใช้ (Data Files)
 โปรเจกต์นี้จำเป็นต้องใช้ไฟล์ CSV 3 ไฟล์ ซึ่งต้องวางไว้ในโฟลเดอร์เดียวกันกับไฟล์สคริปต์ Python (.py):
-
-goldstock_v1.csv - ข้อมูลราคาหุ้นทองคำ
-
-Crude_Oil_Data.csv - ข้อมูลราคาน้ำมันดิบ
-
-SP500.csv - ข้อมูลดัชนี S&P 500
+1. goldstock_v1.csv - ข้อมูลราคาหุ้นทองคำ
+2. Crude_Oil_Data.csv - ข้อมูลราคาน้ำมันดิบ
+3. SP500.csv - ข้อมูลดัชนี S&P 500
